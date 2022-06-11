@@ -6,7 +6,7 @@ const roomMessage = document.querySelector('.room-message');
 const users = document.querySelector('.users');
 
 //Socket server URL
-const socket = io.connect('https://dashboard.heroku.com/apps/chatapprooms101', {
+const socket = io.connect('https://chatapprooms101.herokuapp.com', {
   extraHeaders: {
     "my-custom-header": "abcd"
   }
